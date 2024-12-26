@@ -15,8 +15,8 @@ plt.plot(data.index, data['rho'], label='rho', color='blue')
 plt.plot(data.index, data['u'], label='u', color='green')
 plt.plot(data.index, data['p'], label='p', color='red')
 plt.plot(data.index, data['gamma'], label='gamma', color='orange')
-plt.plot(data.index, data['rho_0'], label='rho_0', color='purple')
-plt.plot(data.index, data['c_0'], label='c_0', color='brown')
+# plt.plot(data.index, data['rho_0'], label='rho_0', color='purple')
+# plt.plot(data.index, data['c_0'], label='c_0', color='brown')
 
 # Добавляем заголовок и метки осей
 plt.title('Parameters vs Index')
